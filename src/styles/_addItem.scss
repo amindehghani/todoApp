@@ -1,0 +1,18 @@
+.item-input{
+    width: 30%;
+    height: 60px;
+    line-height: 60px;
+    font-size: $default-font-size;
+    padding: 0 14px;
+    color: $very-dark-grayish-blue;
+    background-color: $very-light-gray;
+    border-radius: 8px;
+    border-color: unset;
+    border-style: unset;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+    
+
+    &:focus{
+        outline: unset;
+    }
+}

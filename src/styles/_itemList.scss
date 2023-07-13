@@ -1,0 +1,33 @@
+.itemlist-container{
+    background-color: $very-light-gray;
+    border-radius: 8px;
+    width: 35%;
+    min-height: 500px;
+    height: 500px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+
+    .itemlist-body{
+        min-height: 95%;
+        height: 95%;
+    }
+
+    .itemlist-footer{
+        display: flex;
+        justify-content: space-between;
+        padding: {
+            top: 0;
+            left: 5px;
+            right: 5px;
+            bottom: 0;
+        };
+
+        &-status{
+            ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-evenly;
+            }
+        }
+    }
+}
