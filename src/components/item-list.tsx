@@ -12,13 +12,13 @@ export default function ItemList(){
                 </div>
                 <div className="itemlist-footer-status">
                     <ul>
-                        <li>All</li>
+                        <li className="active">All</li>
                         <li>Active</li>
                         <li>Completed</li>
                     </ul>
                 </div>
                 <div className="itemlist-footer-actions">
-                    <button type="button">Clear Completed</button>
+                    <span>Clear Completed</span>
                 </div>
             </div>
         </div>

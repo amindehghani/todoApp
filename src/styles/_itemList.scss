@@ -1,32 +1,52 @@
 .itemlist-container{
     background-color: $very-light-gray;
     border-radius: 8px;
-    width: 35%;
+    width: 30%;
     min-height: 500px;
     height: 500px;
     box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 
     .itemlist-body{
-        min-height: 95%;
-        height: 95%;
+        min-height: 90%;
+        height: 90%;
     }
 
     .itemlist-footer{
+        cursor: pointer;
+        border-top: 1px solid $light-grayish-blue;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         padding: {
-            top: 0;
+            top: 15px;
             left: 5px;
             right: 5px;
             bottom: 0;
         };
+        
+        &-info{
+        }
 
         &-status{
             ul{
             display: flex;
             list-style: none;
             justify-content: space-evenly;
+
+            li{
+                margin: 0 10px;
+
+                &.active{
+                    color: $bright-blue;
+                }
+            }
+            }
+        }
+
+        &-actions{
+            span{
+                cursor: pointer;
             }
         }
     }
